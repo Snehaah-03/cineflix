@@ -36,25 +36,170 @@
     }
     .nav-links a :hover {
         color: gray;
-    }    
+    }  
+    img{
+        width:25px
+    }
+    .nav-left{
+        display: flex;
+        align-items: center;
+    }
+    
+    .nav-links a {
+        margin: 0 10px;
+    }
+    navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .nav-icons{
+        display: flex;
+        gap: 15px;
+        margin-left: 630px;
+    }
+    .nav-icons img{
+        cursor: pointer;
+        transition: transform 0.3s ease,filter 0.3s ease;
+    }
+    .nav-icons img :hover{
+        transform: scale(1.2);
+        filter: drop-shadow(0 0 5px #fff);
+        color: red;
+    }
+    strong{
+        color: white;
+        padding-left: 65px;
+        margin-top: 100px;
+        font-size: 75px;
+    }
+    p{
+        color: white;
+         padding-left: 65px;
+         font-size: 20px;
+    }
+    button{
+         height: 40px;
+         width: 100px;
+         margin-left: 80px;
+         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+         font-size: 20px;
+         color:black;
+         border-radius: 7px;
+    }
+    button :hover{
+        color: grey;
+    }
+    h3{
+        color: #fff;
+         padding-left: 65px;
+         font-size: 35px;
+        }
+    .trending img{
+        width: 200px;
+        height: 250px;
+        padding-left: 65px;
+        border-radius: 7px;
+    }
+    .trending :hover{
+         transform: scale(1.2);
+        filter: drop-shadow(0 0 5px #fff);
+        gap: 20px;
+    }
+    h4{
+        color: #fff;
+         padding-left: 65px;
+         font-size: 35px;
+        }
+    .new img{
+        width: 200px;
+        height: 250px;
+        padding-left: 65px;
+        border-radius: 7px;
+     }
+     .new :hover{
+         transform: scale(1.2);
+        filter: drop-shadow(0 0 5px #fff);
+        gap: 20px;
+     }
+    small{
+        color: gray;
+        font-family:Arial, Helvetica, sans-serif;
+        text-align: center;
+        display: flex;
+        padding-left: 750px;
+    }
+        
+    
 
+        
+    
+
+    
 
 </style>
 <body>
     <h1>CINEFLIX</h1>
     
         
-    <div class="navbar">
+    <nav class="navbar">
+    <div class="nav-left">
     <div class="logo">CINEFLIX</div>
     <div class="nav-links">
         <a href="#">Home</a>
-        <a href="#">TV shows</a>
+        <a href="#">TV Shows</a>
         <a href="#">Movies</a>
         <a href="#">New & Popular</a>
         <a href="#">My List</a>
         </div>
         </div>
+    <div class="nav-icons">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrsfCTWk5t9j6icC57_5TwwmGOPEEOHIoRMYnnkQG_yt4IeHR4xMNoOVQt7op4ZfRj_-o&usqp=CAU" alt="Search bar">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx9gmHaYUMk1DXur5XgzL9s-zVc58CPy2LmA&s" alt="notification bell">
+    <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTn4kFZSfGv-prjpCyjgsMyRBPuG7koT9Gd5-OgTLYLvIDG4gcd" alt="contact png"</div>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <strong>Thudarum</strong>
+    <p>Shanmugham, a taxi driver who is in love with his black ambassador.
+        <br> Later due to mysterious circumstances, it seems as if his car is missing <br>and there is a change in him as he searches for it</p>
 
+    <div><button><bold>Play</bold></button>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>Trending Now</h3>
+    <br>
+    <div class="trending">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRrS8R_qgKgFzXXtT92-zPcPK70pXWsFU9Eg&s" alt="Thudarum movie">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtII43XejO_RPm53A9t0Kr9TMmwcq-UhzdDQ&s" alt="padakkalam poster">
+        <img src="https://m.media-amazon.com/images/M/MV5BZGQ3YmVkZWYtNGZiNi00ZmY0LTgwMmMtYWViNzIxOTlmODIxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="tourist family">
+        <img src="https://m.media-amazon.com/images/M/MV5BNTFmMDNlZWMtODk1Yy00OWE5LWI0N2ItMmE4MDQxMGY3MWI1XkEyXkFqcGc@._V1_.jpg" alt="nativetta poster">
+        <img src="https://gallery.123telugu.com/content/slideshows/2025/4/Hit3-26/images/3.jpg" alt="hit 3 poster">
+        </div>
+        <br>
+        <br>
+        <h4>New Release</h4>
+        <br>
+        <div class="new">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/Prince_and_Family_poster.jpg/250px-Prince_and_Family_poster.jpg" alt="prince and family poster">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9uR5Mamb3AP45FOT5tMZy6B9uJyChJ8eSLQ&s" alt="ujjwalan">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX0SxYwIPP4qd3DpfAQn-QlwTIe9Y3hNeLBw&s" alt="thuglife poster">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZoK7eU02vp2WVn3SqNyVh-RJlwzL7CEYxhQ&s" alt="asif poster">
+            <img src="https://static.toiimg.com/photo/121807008.cms" alt="ronth movie poster"></div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <small>2025© Cineflix.All Rights Recieved</small>
+
+   
 
 
 
